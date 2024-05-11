@@ -669,6 +669,11 @@ export default defineConfigWithTheme<ThemeConfig>({
     i18n,
 
     localeLinks: [
+      { 
+        link: 'https://vuejs.org',
+        text: 'English',
+        repo: 'https://github.com/vuejs/docs'
+    	},
       {
         link: 'https://cn.vuejs.org',
         text: '简体中文',
